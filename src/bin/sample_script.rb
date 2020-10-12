@@ -8,7 +8,7 @@ end
 $:.unshift('/opt/company/lib/ruby2')
 $:.unshift(File.expand_path('../lib/ruby2/',File.dirname(realbin)))
 
-require 'HelloRuby/HelloRepoLayout'
+require 'helloruby/hellorepolayout'
 
 app = HelloRuby::HelloRepoLayout.new
 
